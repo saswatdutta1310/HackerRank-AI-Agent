@@ -131,4 +131,4 @@ Results will be announced on May 15, 2026
 
 Submissions are scored across four dimensions: agent design (your `code/`), the AI Judge interview, output accuracy on `support_tickets/output.csv`, and AI fluency from your chat transcript.
 
-See [`evalutation_criteria.md`](./evalutation_criteria.md) for the full rubric.
+See [`evalutation_criteria.md`](./evalutation_criteria.md) for the full rubric.# HackerRank-Agent

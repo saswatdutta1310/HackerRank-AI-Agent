@@ -25,7 +25,7 @@ graph TD
     K --> D
 ```
 
-## 🌟 Key Innovations
+## 🌟 Key Innovation:
 
 ### 1. 🔄 Infinite Quota Resiliency
 The agent handles API rate limits (429) and service instability (503) through a **Dynamic Model Rotation** loop. If one Gemini model is exhausted, the system shuffles to the next version (`Flash 1.5` -> `2.0` -> `Lite` -> `Pro`), combined with a 15-retry exponential backoff strategy.
@@ -42,9 +42,9 @@ Utilizes **BM25Okapi** for high-precision semantic retrieval from local markdown
 ### 4. 🏁 Smart Resume Mechanism
 The orchestrator is inherently crash-proof. It scans existing progress in `output.csv` on launch and skips previously completed tickets, allowing for seamless recovery from network or hardware failures.
 
-## 🚀 Quick Start
+##  Quick Start
 
-### Prerequisites
+## Prerequisites
 - Python 3.10+
 - Google Gemini API Key
 
@@ -58,13 +58,13 @@ cd HackerRank-AI-Agent
 pip install -r code/requirements.txt
 ```
 
-### Configuration
+## Configuration
 Create a `.env` file in the root directory:
 ```env
 GEMINI_API_KEY=your_key_here
 ```
 
-### Usage
+## Usage
 ```bash
 cd code
 python main.py

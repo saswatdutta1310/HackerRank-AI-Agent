@@ -4,7 +4,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![AI Powered](https://img.shields.io/badge/AI-Gemini%20%7C%20Claude-blueviolet)](https://ai.google.dev/)
 
-A production-ready, fault-tolerant AI orchestrator designed to automate high-accuracy triage for large-scale support ticket volumes. Engineered for the **HackerRank Orchestrate 2026** challenge, this system features multi-layered security, semantic grounding (RAG), and a self-healing model-rotation engine.
+A production-ready, fault-tolerant AI orchestrator for automate high-accuracy triage for large-scale support ticket volumes. Engineered for the **HackerRank Orchestrate 2026** challenge, this system features multi-layered security, semantic grounding (RAG), and a self-healing model-rotation engine.
 
 ## 🏗️ System Architecture
 
